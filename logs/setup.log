@@ -1,0 +1,27 @@
+[Sun, Apr 19, 2026  7:06:54 PM] Creating pipeline directory structure...
+[Sun, Apr 19, 2026  7:06:54 PM] Directories created successfully
+[Sun, Apr 19, 2026  7:06:54 PM] Setting file permissions...
+[Sun, Apr 19, 2026  7:06:55 PM] File permissions set to 755 for all scripts
+[Sun, Apr 19, 2026  7:06:55 PM] Moving raw CSV files to data/raw/...
+[Sun, Apr 19, 2026  7:06:55 PM] Raw CSV files moved to data/raw/
+[Sun, Apr 19, 2026  7:06:55 PM] Moving clean CSV files to data/clean/...
+[Sun, Apr 19, 2026  7:06:55 PM] Clean CSV files moved to data/clean/
+[Sun, Apr 19, 2026  7:06:55 PM] Moving Spark output files to data/spark_output/...
+[Sun, Apr 19, 2026  7:06:55 PM] Spark output files moved to data/spark_output/
+[Sun, Apr 19, 2026  7:06:56 PM] Final directory structure:
+data/clean/clean_customers.csv
+data/clean/clean_orders.csv
+data/clean/clean_payments.csv
+data/clean/clean_products.csv
+data/clean/clean_vendors.csv
+data/raw/customers.csv
+data/raw/orders.csv
+data/raw/payments.csv
+data/raw/products.csv
+data/raw/vendors.csv
+data/spark_output/spark_avg_order_per_vendor.csv
+data/spark_output/spark_monthly_sales.csv
+data/spark_output/spark_orders_per_category.csv
+data/spark_output/spark_payment_status.csv
+data/spark_output/spark_top10_vendors_revenue.csv
+[Sun, Apr 19, 2026  7:06:56 PM] Setup complete!

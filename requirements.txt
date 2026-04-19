@@ -1,0 +1,28 @@
+# =============================================================
+# Multi-Vendor Marketplace — Python Dependencies
+# =============================================================
+# Install all at once:   pip install -r requirements.txt
+# =============================================================
+
+# Data Processing
+pandas>=2.0
+numpy>=1.24
+
+# Fake Data Generation
+faker>=20.0
+
+# Apache Kafka (Python client)
+kafka-python>=2.0.2
+
+# PostgreSQL Adapter
+psycopg2-binary>=2.9
+
+# Apache Spark (Python API)
+pyspark>=3.5
+
+# Dashboard
+streamlit>=1.30
+plotly>=5.18
+
+# Environment variables
+python-dotenv>=1.0
